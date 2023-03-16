@@ -145,6 +145,37 @@
             </div>
         </div>
 
+        <!-- Testimonials -->
+        <div class="overflow-hidden">
+            <div class="container content-space-2 content-space-lg-3">
+                <div class="row justify-content-lg-between align-items-md-center">
+                    <div class="col-md-6 order-md-2 mb-10 mb-md-0">
+                        <div class="position-relative">
+                            <img class="img-fluid rounded-2" src="./assets/media/boss.jpg"alt="Image Description">
+                            <figure class="position-absolute top-0 start-0 zi-n1 mt-n7 ms-n7" style="width: 12rem;">
+                                <img class="img-fluid" src="./assets/media/svg/dots-lg.svg" alt="SVG">
+                            </figure>
+                            <figure class="position-absolute bottom-0 end-0 zi-n1 mb-n7 me-n7" style="width: 12rem;">
+                                <img class="img-fluid" src="./assets/media/svg/dots-lg.svg" alt="SVG">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5 order-md-1">
+                        <div class="mb-4">
+                            <img class="avatar avatar-xl avatar-4x3" src="./assets/media/logo/bcfa-logo.png" style="width: 60px;"  alt="Image Description">
+                        </div>
+                        <figure>
+                            <blockquote class="blockquote blockquote-lg">" Let’s encourage the use of Bitcoin amongst Africans so as to create “interconnected hubs of prosperity” throughout the continent of Africa and beyond. "</blockquote>
+                            <figcaption class="blockquote-footer">
+                                Philip Agyei Asare
+                                <span class="blockquote-footer-source">Founder . BCFA</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="border-top mx-auto" style="max-width: 25rem;"></div>
 
         <!-- Testimonials -->

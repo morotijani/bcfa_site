@@ -28,7 +28,7 @@
         <div class="container content-space-2 content-space-lg-3">
             <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
                 <span class="text-cap">What we do</span>
-                <h2>Helping to create awareness on Bitcoin and other crypto currencies in Ghana and Africa to be precise.</h2>
+                <h2>Helping to create awareness and adoption of Bitcoin and the blockchain technology in GHANA and Africa to be precise.</h2>
             </div>
 
             <div class="row justify-content-lg-center">
