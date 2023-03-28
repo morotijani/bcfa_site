@@ -23,7 +23,7 @@
                     <div class="bg-img-start" style="background-image: url(./assets/media/back2.jpg); height: 15rem;"></div>
                 </div>
                 <div class="col mb-3">
-                    <div class="bg-img-start" style="background-image: url(./assets/media/back3.jpg); height: 15rem;"></div>
+                    <div class="bg-img-start" style="background-image: url(./assets/media/back7.jpg); height: 15rem;"></div>
                 </div>
                 <div class="w-100"></div>
                 <div class="col mb-3 mb-md-0">
@@ -148,6 +148,11 @@
                                         <i class="bi-twitter"></i>
                                     </a>
                                 </li>
+                                <li class="list-inline-item">
+                                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="mailto:gyebi@blockchainfoundationafrica.com">
+                                        <i class="bi-globe"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -163,6 +168,11 @@
                                 <li class="list-inline-item">
                                     <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="https://web.facebook.com/nanaosei.bonsu.52" target="_blank">
                                         <i class="bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="mailto:bonsu@blockchainfoundationafrica.com">
+                                        <i class="bi-globe"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -182,6 +192,11 @@
                                         <i class="bi-twitter"></i>
                                     </a>
                                 </li>
+                                <li class="list-inline-item">
+                                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="mailto:michael@blockchainfoundationafrica.com">
+                                        <i class="bi-globe"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -199,6 +214,11 @@
                                         <i class="bi-twitter"></i>
                                     </a>
                                 </li>
+                                <li class="list-inline-item">
+                                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="mailto:richard@blockchainfoundationafrica.com">
+                                        <i class="bi-globe"></i>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -214,6 +234,11 @@
                                 <li class="list-inline-item">
                                     <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="https://twitter/ahmedtijanimoro" target="_blank">
                                         <i class="bi-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn btn-outline-primary btn-xs btn-icon rounded" href="mailto:tijani@blockchainfoundationafrica.com">
+                                        <i class="bi-globe"></i>
                                     </a>
                                 </li>
                             </ul>
