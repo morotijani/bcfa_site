@@ -49,6 +49,14 @@
                                     <a class="dropdown-item " href="./blog-author-profile.html">Author Profile</a>
                                 </div>
                             </li>
+                            <li class="hs-has-sub-menu nav-item">
+                                <a id="blogMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Programs</a>
+                                <div class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 14rem;">
+                                    <a class="dropdown-item " href="">Workshop</a>
+                                    <a class="dropdown-item " href="">Developer Week</a>
+                                    <a class="dropdown-item " href="">Festival</a>
+                                </div>
+                            </li>
                             <li class="nav-item">
                                 <a id="" class="nav-link " href="services" role="button" aria-expanded="false">Services</a>
                             </li>
