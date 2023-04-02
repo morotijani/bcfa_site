@@ -9,7 +9,7 @@
     <main id="content" role="main">
         <div class="container content-space-t-3 content-space-t-lg-5">
             <div class="w-lg-65 text-center mx-lg-auto mb-5 mb-md-9">
-                <h1>Helping to promote acceptance of bitcoin and blockchain technologies, namely in Ghana and Africa.</h1>
+                <h1>Promoting a mass adoption of Bitcoin and Blockchain technology to help mitigate the socio economic challenges in Africa.</h1>
             </div>
 
             <div class="row gx-3 gx-lg-4">
@@ -43,8 +43,8 @@
                             </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                            <h4>Awareness</h4>
-                            <p>We build brand awareness for our partners as the first stage of the market entry funnel to reach a broad audience of potential customers in our community and make your brand top-of-mind when users are prepared to investigate and engage.</p>
+                            <h4>Meetups</h4>
+                            <p>We organize meetups for our partner projects whenever the needs a rise and we can confidently say we've been organizing meetups since 2015.</p>
                         </div>
                     </div>
                 </div>
@@ -59,8 +59,8 @@
                             </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                            <h4>Promotion</h4>
-                            <p>Since new blockchain projects are being created practically daily, it's critical to take advantage of all available social media channels to spread the word about our partners' goods and services.</p>
+                            <h4>Charity Projects</h4>
+                            <p>Through our charity work, we've been able to build A borehole water project for the people Edwinase and also a Bitcoin technology for the people of Ashanti Region.</p>
                         </div>
                     </div>
                 </div>
@@ -76,8 +76,8 @@
                             </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                            <h4>Advertising</h4>
-                            <p>By specifically highlighting the advantages of your product that your competitors don't offer in a way that is satisfactory to our services, we create effective advertisements that are a difficult job to promote the goods and services of our partners.</p>
+                            <h4>Conferences</h4>
+                            <p>Positively impact Tertiary student entrepreneurs through campus meet-ups, seminars etc.to help in the reduction of youth unemployment on the African continent.</p>
                         </div>
                     </div>
                 </div>

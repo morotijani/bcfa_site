@@ -160,7 +160,7 @@
                         </span>
                     </a>
                 </div>
-                <div class="col-sm-6 col-lg-4 mb-4">
+                <!-- <div class="col-sm-6 col-lg-4 mb-4">
                     <a class="media-viewer" href="./assets/media/gallery/gallery-3.jpg" data-fslightbox="gallery">
                         <img class="img-fluid rounded" src="./assets/media/gallery/gallery-3.jpg" style="width: 100%; height: 200px; object-fit: cover;" alt="Image Description">
                         <span class="media-viewer-container">
@@ -169,7 +169,7 @@
                             </span>
                         </span>
                     </a>
-                </div>
+                </div> -->
                 <div class="col-sm-6 col-lg-4 mb-4">
                     <a class="media-viewer" href="./assets/media/gallery/gallery-4.jpg" data-fslightbox="gallery">
                         <img class="img-fluid rounded" src="./assets/media/gallery/gallery-4.jpg" style="width: 100%; height: 200px; object-fit: cover;" alt="Image Description">

@@ -27,7 +27,7 @@
                                         <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
                                     </span>
                                 </h1>
-                                <p class="lead">Empowering Blockchain Startups. build strategies, build confidence, build businesses.</p>
+                                <p class="lead">Empowering Bitcoin startups and blockchain education. Build strategies, build confidence and build businesses.</p>
                             </div>
 
                             <div class="d-grid d-sm-flex gap-3">
@@ -220,8 +220,8 @@
                                                 <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M20.5 11H10V17.5C10 18.3284 10.6716 19 11.5 19H15.5C17.3546 19 19.0277 18.2233 20.2119 16.9775C20.1436 16.9922 20.0727 17 20 17C19.4477 17 19 16.5523 19 16V13C19 12.4477 19.4477 12 20 12C20.5523 12 21 12.4477 21 13V15.9657C21.6334 14.9626 22 13.7741 22 12.5C22 11.6716 21.3284 11 20.5 11Z" fill="#035A4B" />
                                             </svg>
                                         </span>
-                                        <h4 class="card-title">Workshops </h4>
-                                        <p class="card-text">Users of partners are encouraged to participate in BCFA workshops to learn about the history of digital money and blockchain technology. We primarily host workshops focused on our partners' cryptocurrencies to provide trading opportunities.</p>
+                                        <h4 class="card-title">Workshops</h4>
+                                        <p class="card-text">Users of our partners are encouraged to participate in BCFA workshops to learn about the history of Bitcoin and the blockchain technology. We primarily host workshops focused on sponsored partners project to provide learning opportunities.</p>
                                         <a class="card-link" href="workshops">Read more<i class="bi-chevron-right small ms-1"></i></a>
                                     </div>
                                 </div>
@@ -253,7 +253,7 @@
                                             </svg>
                                         </span>
                                         <h4 class="card-title">Festivals</h4>
-                                        <p class="card-text">We hold celebrations of the use of the Bitcoin Blockchain, such as Coinfest, which was created to encourage use of cryptocurrencies while enlightening the public about their significance and widespread adoption in local households.</p>
+                                        <p class="card-text">We hold celebration of the use of Bitcoin such as Coinfest, which was established in 2014 to help encourage use of Bitcoin while enlightening the public about its significance and the widespread adoption in local households.</p>
                                         <a class="card-link" href="festival">Read more <i class="fas bi-chevron-right small ms-1"></i></a>
                                     </div>
                                 </div>
@@ -263,7 +263,7 @@
                 </div>
             </div>
             <!-- 900x900 -->
-            <div class="banner-half-middle-x bg-img-start d-none d-md-block" style="background-image: url(assets/media/charity.jpg);"></div>
+            <div class="banner-half-middle-x bg-img-start d-none d-md-block" style="background-image: url(assets/media/bg-2.jpg);"></div>
         </div>
         
         <!-- Card Grid -->
