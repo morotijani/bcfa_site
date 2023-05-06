@@ -4,6 +4,58 @@
     $headerTitle = 'Contact us - B.C.F.A';
     include ("include/header.php");
 
+    $contact_fname = (isset($_POST['contact_fname']) ? sanitize($_POST['contact_fname']) : '');
+    $contact_lname = (isset($_POST['contact_lname']) ? sanitize($_POST['contact_lname']) : '');
+    $contact_email = (isset($_POST['contact_email']) ? sanitize($_POST['contact_email']) : '');
+    $contact_phone = (isset($_POST['contact_phone']) ? sanitize($_POST['contact_phone']) : '');
+    $contact_message = (isset($_POST['contact_message']) ? sanitize($_POST['contact_message']) : '');
+    if ($_POST) {
+        $added_date = date('Y-m-d H:i:s A');
+        $errors = '';
+
+        if (!empty($firstname) ) {
+            # code...
+        }
+        $post = array(
+            'contact_fname' => 'First name',
+            'contact_lname' => 'Last name',
+            'contact_email' => 'Email',
+            'contact_message' => 'Message',
+        );
+        foreach ($post as $k => $v) {
+            if (empty($_POST[$k])) {
+                $errors = '<script>alert("'.$v.' is required.");</script>';
+                break;
+            }
+        }
+
+        if (!filter_var($contact_email, FILTER_VALIDATE_EMAIL)) {
+            $errors = '<script>alert("Email is not valid.");</script>';
+        }
+
+        if (empty($errors)) {
+            $data = [
+                ':contact_fname'    => $contact_fname,
+                ':contact_lname'        => $contact_lname,
+                ':contact_email'      => $contact_email,
+                ':contact_phone'      => $contact_phone,
+                ':contact_message'      => $contact_message,
+                ':contact_date_addded'      => $added_date,
+            ];
+            $query = "
+                INSERT INTO `bcfa_contact`(`contact_fname`, `contact_lname`, `contact_email`, `contact_phone`, `contact_message`, `contact_date_addded`)
+                VALUES (:contact_fname, :contact_lname, :contact_email, :contact_phone, :contact_message, :contact_date_addded)
+            ";
+            $statement = $conn->prepare($query);
+            $result = $statement->execute($data);
+            if ($result) {
+                echo '<script>alert("Message sent successfully.");</script>';
+                redirect(PROOT . "contact-us");
+            }
+        }
+
+        echo $errors;
+    }
 ?>
 
     <!-- MAIN -->
@@ -16,7 +68,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
-                        <a class="card card-transition text-center h-100" href="#">
+                        <a class="card card-transition text-center h-100" href="mailto:info@blockchainfoundationafrica.com">
                             <div class="card-body">
                                 <div class="svg-icon text-info mb-3">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +76,7 @@
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M10.591 13.209V14.868H11.851C14.392 14.868 16.387 12.915 16.387 10.395C16.387 7.875 14.392 5.922 11.851 5.922C9.31 5.922 7.336 7.875 7.336 10.395H9.121C9.121 8.799 10.234 7.581 11.851 7.581C13.447 7.581 14.602 8.799 14.602 10.395C14.602 11.991 13.447 13.209 11.851 13.209H10.591ZM12 16C11.4477 16 11 16.4477 11 17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17C13 16.4477 12.5523 16 12 16Z" fill="#035A4B" />
                                     </svg>
                                 </div>
-                                <h4 class="card-title">Knowledgebase</h4>
+                                <h4 class="card-title">Help Desk</h4>
                                 <p class="card-text text-body">We're here to help with any questions or code.</p>
                             </div>
                             <div class="card-footer pt-0">
@@ -33,7 +85,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
-                        <a class="card card-transition text-center h-100" href="#">
+                        <a class="card card-transition text-center h-100" href="javascript:;">
                             <div class="card-body">
                                 <div class="svg-icon text-info mb-3">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,7 +103,7 @@
                     </div>
 
                     <div class="col-md-4">
-                        <a class="card card-transition text-center h-100" href="#">
+                        <a class="card card-transition text-center h-100" href="mailto:sponsor@blockchainfoundationafrica.com ">
                             <div class="card-body">
                                 <div class="svg-icon text-info mb-3">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +111,7 @@
                                         <path d="M4.06875 17.9688C3.86875 17.9688 3.66874 17.8688 3.46874 17.7688C2.96874 17.4688 2.86875 16.8688 3.16875 16.3688L6.76874 10.9688L3.16875 5.56876C2.86875 5.06876 2.96874 4.46873 3.46874 4.16873C3.96874 3.86873 4.56875 3.96878 4.86875 4.46878L8.86875 10.4688C9.06875 10.7688 9.06875 11.2688 8.86875 11.5688L4.86875 17.5688C4.66875 17.7688 4.36875 17.9688 4.06875 17.9688Z" fill="#035A4B" />
                                     </svg>
                                 </div>
-                                <h4 class="card-title">Developer APIs</h4>
+                                <h4 class="card-title">Donate</h4>
                                 <p class="card-text text-body">Check out our development quickstart guide.</p>
                             </div>
                             <div class="card-footer pt-0">
@@ -85,42 +137,42 @@
                             <h2>Tell us about yourself</h2>
                             <p>Whether you have questions or you would just like to say hello, contact us.</p>
                         </div>
-                        <form>
+                        <form method="POST">
                             <div class="row gx-3">
                                 <div class="col-sm-6">
                                     <div class="mb-3">
-                                        <label class="form-label" for="hireUsFormFirstName">First name</label>
-                                        <input type="text" class="form-control form-control-lg" name="hireUsFormNameFirstName" id="hireUsFormFirstName" placeholder="First name" aria-label="First name">
+                                        <label class="form-label" for="contact_fname">First name</label>
+                                        <input type="text" class="form-control form-control-lg" name="contact_fname" id="contact_fname" placeholder="First name" aria-label="First name" value="<?= $contact_fname; ?>">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="mb-3">
-                                        <label class="form-label" for="hireUsFormLasttName">Last name</label>
-                                        <input type="text" class="form-control form-control-lg" name="hireUsFormNameLastName" id="hireUsFormLasttName" placeholder="Last name" aria-label="Last name">
+                                        <label class="form-label" for="contact_lname">Last name</label>
+                                        <input type="text" class="form-control form-control-lg" name="contact_lname" id="contact_lname" placeholder="Last name" aria-label="Last name" value="<?= $contact_lname; ?>">
                                     </div>
                                 </div>
                             </div>
                             <div class="row gx-3">
                                 <div class="col-sm-6">
                                     <div class="mb-3">
-                                        <label class="form-label" for="hireUsFormWorkEmail">Email address</label>
-                                        <input type="email" class="form-control form-control-lg" name="hireUsFormNameWorkEmail" id="hireUsFormWorkEmail" placeholder="email@site.com" aria-label="email@site.com">
+                                        <label class="form-label" for="contact_email">Email address</label>
+                                        <input type="email" class="form-control form-control-lg" name="contact_email" id="contact_email" placeholder="email@site.com" aria-label="email@site.com" value="<?= $contact_email; ?>">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="mb-3">
-                                        <label class="form-label" for="hireUsFormPhone">Phone <span class="form-label-secondary">(Optional)</span></label>
-                                        <input type="text" class="form-control form-control-lg" name="hireUsFormNamePhone" id="hireUsFormPhone" placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx">
+                                        <label class="form-label" for="contact_phone">Phone <span class="form-label-secondary">(Optional)</span></label>
+                                        <input type="text" class="form-control form-control-lg" name="contact_phone" id="contact_phone" placeholder="+x(xxx)xxx-xx-xx" aria-label="+x(xxx)xxx-xx-xx" value="<?= $contact_phone; ?>">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="mb-3">
-                                <label class="form-label" for="hireUsFormDetails">Details</label>
-                                <textarea class="form-control form-control-lg" name="hireUsFormNameDetails" id="hireUsFormDetails" placeholder="Tell us about your ..." aria-label="Tell us about your ..." rows="4"></textarea>
+                                <label class="form-label" for="contact_message">Details</label>
+                                <textarea class="form-control form-control-lg" name="contact_message" id="contact_message" placeholder="Tell us about your ..." aria-label="Tell us about your ..." rows="4"><?= $contact_message; ?></textarea>
                             </div>
                             <div class="d-grid">
-                                <button type="submit" class="btn btn-info btn-lg">Send inquiry</button>
+                                <button type="submit" name="submit" class="btn btn-info btn-lg">Send inquiry</button>
                             </div>
                             <div class="text-center">
                                 <p class="form-text">We'll get back to you in 1-2 business days.</p>
