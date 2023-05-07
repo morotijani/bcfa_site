@@ -40,7 +40,7 @@
                 ':contact_date_addded'      => $added_date,
             ];
             $to = 'info@blockchainfoundationafrica.com';
-            $subject = 'I want to be a SPEAKER.';
+            $subject = $contact_fname . ' send a message.';
             $body = '
                 <html>
                 <head>
@@ -74,6 +74,12 @@
                 $statement = $conn->prepare($query);
                 $result = $statement->execute($data);
                 if ($result) {
+                    $message = '
+                        <p>We have receive your message.</p>
+                        <p>We will get back to you as soon as possible.</p>
+                        <p>Best Regards, Blockchain Foundation Africa.</p>
+                    ';
+                    send_email($contact_fname, $contact_email, 'Message received, BCFA.', $message);
                     echo '<script>alert("Message sent successfully.");</script>';
                     redirect(PROOT . "contact-us");
                 }

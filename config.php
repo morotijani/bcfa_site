@@ -7,9 +7,9 @@
 
 	define('SMS_API_KEY', '03fc14c0b83a26d000193e427cff93');
 
-	define('MAIL_MAIL', 'info@puubu.namibra.io');
+	define('MAIL_MAIL', 'info@blockchainfoundationafrica.com');
 
-	define('MAIL_KEY', 'UzeGt#YP6vjV');
+	define('MAIL_KEY', 'Sv5049bec');
 
 	define('IPINFO_KEY', 'c5c08603163207');
 

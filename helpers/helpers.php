@@ -125,7 +125,7 @@ function send_email($name, $to, $subject, $body) {
         $fn = $name;
         $to = $to;
         $from = MAIL_MAIL;
-        $from_name = 'B.F.C Africa.';
+        $from_name = 'B . C . F . A';
         $subject = $subject;
         $body = $body;
 
@@ -136,7 +136,7 @@ function send_email($name, $to, $subject, $body) {
         $mail->SMTPAuth = true;
 
         $mail->SMTPSecure = 'ssl'; 
-        $mail->Host = 'smtp.namibra.io';
+        $mail->Host = 'smtp.blockchainfoundationafrica.com';
         $mail->Port = 465;  
         $mail->Username = $from;
         $mail->Password = MAIL_KEY; 
