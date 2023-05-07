@@ -41,7 +41,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>Upload Images | Gallery . Admin</title>
+    <title>Contact . Admin</title>
 </head>
 <body>
     <header class="p-3 text-bg-dark bg-dark">

@@ -10,7 +10,7 @@
             <div class="w-lg-75 text-center mx-lg-auto">
                 <div class="mb-5 mb-md-10">
                     <h1 class="display-4">About Us</h1>
-                    <p class="lead">Since its humble beginnings in 2014, Blockchain Foundation Africa, with the support of global partners, donors, and volunteers, have been on a mission to use the enabling power of cryptocurrency and blockchains to create opportunities for Africa’s teeming youth, with the goal of championing a new wave of doing business on the continent.</p>
+                    <p class="lead">Since its humble beginnings in 2014, Blockchain Foundation Africa, with the support of global partners, donors, and volunteers, has been on a mission to use the enabling power of Bitcoin and Cryptocurrency to create opportunities for Africa’s teeming youth, to champion a new wave of doing business on the continent.</p>
                 </div>
             </div>
 
@@ -74,7 +74,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <p>Since its beginning in 2014, Blockchain Foundation Africa has championed many educational programs with the goal of educating the masses on the Blockchain and Cryptocurrencies. These initiatives were achieved through conferences, seminars, and Forums.</p>
+                    <p>Since its beginning in 2014, Blockchain Foundation Africa has championed many educational programs to educate the masses on Blockchain Technology and Bitcoin. These initiatives were achieved through conferences, seminars, and Forums.</p>
                 </div>
 
                 <div class="col-lg-4 mb-5 mb-lg-0">
@@ -92,9 +92,8 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <p>Blockchain Foundation Africa’s charity work over the years has been towards providing quality meals to the homeless</p>
-                    <p>This initiative has been sustained internally by funds raised by the Foundation and by benevolent donors that appreciate the impact the project is making and are committed to supporting and seeing it succeed.</p>
-                    <p>As Blockchain Foundation Africa ushers in a new image and brand promise, we count on your support, donations, volunteering, and feedback to grow and make the impact we seek to make</p>
+                    <p>A partnership with Built with Bitcoin Foundation has helped with the construction of a borehole water project for the people of the Edwenase community and a Bitcoin technology centre for the people of Kumasi to help with Computer literacy.</p>
+                    <p>As Blockchain Foundation Africa ushers in a new image and brand promise, we count on your support, donations, volunteering, and feedback to grow and make the impact we seek to make.</p>
                 </div>
             </div>
         </div>

@@ -27,8 +27,8 @@
 
         <div class="container content-space-2 content-space-lg-3">
             <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-                <span class="text-cap">What we do</span>
-                <h2>We are making blockchain adoption the future of finance by building a community of blockchain developers that generates highly qualified blockchain engineers who will use every feature of the technology to make incredibly robust applications in Africa.</h2>
+                <span class="text-cap"><h2>What we do</h2></span>
+                <h2 class="lead">We are making blockchain adoption the future of finance by building a community of Bitcoin enthusiasts and Blockchain developers that generates highly qualified Bitcoin advocates and Blockchain engineers who will use every feature of the technology to make incredible Education and robust applications in Africa.</h2>
             </div>
 
             <div class="row justify-content-lg-center">
