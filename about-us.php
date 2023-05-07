@@ -92,7 +92,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <p>A partnership with Built with Bitcoin Foundation has helped with the construction of a borehole water project for the people of the Edwenase community and a Bitcoin technology centre for the people of Kumasi to help with Computer literacy.</p>
+                    <p>A partnership with Built with Bitcoin Foundation has produced a borehole water facility for the people of the Edwenase community and a Bitcoin technology centre for the people of Kumasi to teach Computer literacy.</p>
                     <p>As Blockchain Foundation Africa ushers in a new image and brand promise, we count on your support, donations, volunteering, and feedback to grow and make the impact we seek to make.</p>
                 </div>
             </div>

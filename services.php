@@ -9,7 +9,7 @@
     <main id="content" role="main">
         <div class="container content-space-t-3 content-space-t-lg-5">
             <div class="w-lg-65 text-center mx-lg-auto mb-5 mb-md-9">
-                <h1>Promoting a mass adoption of Bitcoin and Blockchain technology to help mitigate the socio economic challenges in Africa.</h1>
+                <h1>Promoting mass adoption of Bitcoin and Blockchain technology to mitigate socio economic challenges in Africa.</h1>
             </div>
 
             <div class="row gx-3 gx-lg-4">

@@ -27,7 +27,7 @@
                                         <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
                                     </span>
                                 </h1>
-                                <p class="lead">Empowering Bitcoin startups and blockchain education. Build strategies, build confidence and build businesses.</p>
+                                <p class="lead">Empowering Bitcoin startups and providing blockchain education. Build strategies, build confidence and build businesses.</p>
                             </div>
 
                             <div class="d-grid d-sm-flex gap-3">
@@ -127,7 +127,7 @@
                         <img class="avatar avatar-lg avatar-4x3 mx-auto mb-4" src="./assets/media/logo/bcfa-logo.png" alt="SVG Logo">
 
                         <figure class="w-md-80 w-lg-20 mx-md-auto">
-                            <blockquote class="blockquote">The Blockchain Foundation Africa engages community leaders, influencers and campus leaders in the various tertiary institutions on the continent in open dialogs regarding the benefits of Bitcoin and the blockchain technology through meet-ups and seminars to assist in providing information for pro-Bitcoin education, and actively advocates for the good impact Blockchain technology is having towards humanity in Africa.</blockquote>
+                            <blockquote class="blockquote">Blockchain Foundation Africa engages community leaders, influencers and campus leaders in the various tertiary institutions on the continent in open dialogs regarding the benefits of Bitcoin and the blockchain technology through meet-ups and seminars to assist in providing information for pro-Bitcoin education, and actively advocates for the good impact Blockchain technology is having towards humanity in Africa.</blockquote>
 
                             <figcaption class="blockquote-footer">
                                 Continental Mission
@@ -186,7 +186,7 @@
 
             <figure class="w-md-75 text-center mx-md-auto">
                 <blockquote class="blockquote">
-                    “ The Blockchain Foundation Africa is the longest established Bitcoin and Blockchain advocacy organization in Africa. (Previously called Dream Bitcoin Foundation). 
+                    “ Blockchain Foundation Africa is the longest established Bitcoin and Blockchain advocacy organization in Africa. (Previously called Dream Bitcoin Foundation). 
                     <br><br>
                     The first organization in Africa to organize a Bitcoin conference in December 2014. Please check the link for the press release on the event ”
                 </blockquote>
@@ -221,7 +221,7 @@
                                             </svg>
                                         </span>
                                         <h4 class="card-title">Workshops</h4>
-                                        <p class="card-text">Users of our partners are encouraged to participate in BCFA workshops to learn about the history of Bitcoin and the blockchain technology. We primarily host workshops focused on sponsored partners project to provide learning opportunities.</p>
+                                        <p class="card-text">BCFA engage users and partners to explore the history of digital cash and blockchain technology · We primarily organize workshops engaged in the cryptocurrencies of our partners for trading opportunities</p>
                                         <a class="card-link" href="workshops">Read more<i class="bi-chevron-right small ms-1"></i></a>
                                     </div>
                                 </div>
@@ -331,7 +331,7 @@
             <div class="text-center">
                 <div class="card card-info-link card-sm">
                     <div class="card-body">
-                        Want to learn more? <a class="card-link ms-2" href="#">View all events <span class="bi-chevron-right small ms-1"></span></a>
+                        Want to learn more? <a class="card-link ms-2" href="https://blockchainsummit.africa" target="_blank">View all events <span class="bi-chevron-right small ms-1"></span></a>
                     </div>
                 </div>
             </div>
