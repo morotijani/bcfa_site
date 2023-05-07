@@ -13,9 +13,6 @@
         $added_date = date('Y-m-d H:i:s A');
         $errors = '';
 
-        if (!empty($firstname) ) {
-            # code...
-        }
         $post = array(
             'contact_fname' => 'First name',
             'contact_lname' => 'Last name',
@@ -42,15 +39,44 @@
                 ':contact_message'      => $contact_message,
                 ':contact_date_addded'      => $added_date,
             ];
-            $query = "
-                INSERT INTO `bcfa_contact`(`contact_fname`, `contact_lname`, `contact_email`, `contact_phone`, `contact_message`, `contact_date_addded`)
-                VALUES (:contact_fname, :contact_lname, :contact_email, :contact_phone, :contact_message, :contact_date_addded)
-            ";
-            $statement = $conn->prepare($query);
-            $result = $statement->execute($data);
-            if ($result) {
-                echo '<script>alert("Message sent successfully.");</script>';
-                redirect(PROOT . "contact-us");
+            $to = 'info@blockchainfoundationafrica.com';
+            $subject = 'I want to be a SPEAKER.';
+            $body = '
+                <html>
+                <head>
+                   <title>Message to BCFA</title>
+                </head>
+                <body>
+                   <p>
+                        <center>
+                            <h3>Full Name</h3>
+                            <b>' . ucwords($contact_fname . ' ' . $contact_lname) . '</b>
+                            <br>
+                            <h3>Email</h3>
+                            <b>' . $contact_email . '</b>
+                            <br>
+                            <h3>Message</h3>
+                            <b>' . nl2br($contact_message) . '</b>
+                        </center>
+                    </p>
+               </body>
+               </html>
+            ';
+            $headers = "MIME-Version: 1.0" . "\r\n";
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            $headers .= "From:" . $contact_email;
+                
+            if (mail($to, $subject, $body, $headers)) {
+                $query = "
+                    INSERT INTO `bcfa_contact`(`contact_fname`, `contact_lname`, `contact_email`, `contact_phone`, `contact_message`, `contact_date_addded`)
+                    VALUES (:contact_fname, :contact_lname, :contact_email, :contact_phone, :contact_message, :contact_date_addded)
+                ";
+                $statement = $conn->prepare($query);
+                $result = $statement->execute($data);
+                if ($result) {
+                    echo '<script>alert("Message sent successfully.");</script>';
+                    redirect(PROOT . "contact-us");
+                }
             }
         }
 
