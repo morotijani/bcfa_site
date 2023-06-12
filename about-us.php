@@ -10,7 +10,7 @@
             <div class="w-lg-75 text-center mx-lg-auto">
                 <div class="mb-5 mb-md-10">
                     <h1 class="display-4">About Us</h1>
-                    <p class="lead">Since its humble beginnings in 2014, Blockchain Foundation Africa, with the support of global partners, donors, and volunteers, has been on a mission to use the enabling power of Bitcoin and Cryptocurrency to create opportunities for Africa’s teeming youth, to champion a new wave of doing business on the continent.</p>
+                    <p class="lead">Since its humble beginnings in 2014, Blockchain Foundation Africa, with the support of global partners, donors, and volunteers, has been on a mission to use the enabling power of Bitcoin and Blockchain technology to create opportunities for Africa’s teeming youth, to champion a new wave of doing business on the continent.</p>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <p>Blockchain Foundation Africa believes, cryptocurrency and digital trade is a sure way Africa can open herself to the world in terms of opportunities for young entrepreneurs and small businesses. For many African entrepreneurs, 2 things they have to constantly battle with are,</p>
+                    <p>Blockchain Foundation Africa believes, Blockchain technology and digital trade is a sure way Africa can open herself to the world in terms of opportunities for young entrepreneurs and small businesses. For many African entrepreneurs, 2 things they have to constantly battle with are,</p>
                     <p>How to receive payments globally</p>
                     <p>How to ship their products globally</p>
                 </div>

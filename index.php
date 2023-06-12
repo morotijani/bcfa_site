@@ -119,6 +119,78 @@
             </ul>
         </div>
 
+
+
+        <!-- MISSION -->
+        <div class="overflow-hidden gradient-x-three-sm-primary mb-10 rounded-2 mx-md-10">
+            <div class="container content-space-2 content-space-lg-3">
+                <div class="row justify-content-center align-items-lg-center">
+                    <div class="col-10 col-sm-8 col-lg-5 mb-10 mb-lg-0">
+                        <div class="position-relative">
+                            <img class="img-fluid rounded-2" src="assets/media/mission.png" alt="Image Description">
+                            <div class="position-absolute top-0 start-0 zi-n1 mt-n6 ms-n7" style="width: 10rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 335.2 335.2" width="100" height="100">
+                                    <circle fill="#FFC107" opacity=".7" cx="167.6" cy="167.6" r="130.1" />
+                                </svg>
+                            </div>
+                            <div class="position-absolute bottom-0 end-0 zi-n1 mb-n6 me-n10" style="width: 10rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 335.2 335.2" width="120" height="120">
+                                    <circle fill="none" stroke="#377dff" stroke-width="75" cx="167.6" cy="167.6" r="130.1" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="ps-lg-6">
+                            <div class="mb-3">
+                                <h2>MISSION</h2>
+                            </div>
+                            <figure class="mb-5">
+                                <blockquote class="blockquote blockquote-lg">" The mission of Blockchain Foundation Africa is to drive the adoption of blockchain and other decentralized technologies across Africa, in order to empower individuals and organizations with financial inclusion, transparency and security. Our aim is to promote innovation, education, and collaboration within the blockchain community in Africa, to foster economic growth and social development. "</blockquote>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VISSION -->
+        <div class="overflow-hidden mb-10 rounded-2 mx-md-10">
+            <div class="container content-space-2 content-space-lg-3">
+                <div class="row justify-content-center align-items-lg-center">
+                    <div class="col-lg-7">
+                        <div class="ps-lg-6">
+                            <div class="mb-3">
+                                <h2>VISION</h2>
+                            </div>
+                            <figure class="mb-5">
+                                <blockquote class="blockquote blockquote-lg">" Our vision is to see a continent where blockchain technology is leveraged to create a more efficient, transparent and equitable society, where everyone has access to financial services, and where businesses can thrive in a secure environment. We envision a future where blockchain and other decentralized technologies are fully embraced, understood, and integrated into various industries, leading to a more digitally-driven economy and a brighter future for Africa. "</blockquote>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-8 col-lg-5 mb-10 mb-lg-0">
+                        <div class="position-relative">
+                            <img class="img-fluid rounded-2" src="assets/media/vision.png" alt="Image Description">
+                            <div class="position-absolute top-0 start-0 zi-n1 mt-n6 ms-n7" style="width: 10rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 335.2 335.2" width="100" height="100">
+                                    <circle fill="#FFC107" opacity=".7" cx="167.6" cy="167.6" r="130.1" />
+                                </svg>
+                            </div>
+                            <div class="position-absolute bottom-0 end-0 zi-n1 mb-n6 me-n10" style="width: 10rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 335.2 335.2" width="120" height="120">
+                                    <circle fill="none" stroke="#377dff" stroke-width="75" cx="167.6" cy="167.6" r="130.1" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
         <!-- Testimonials -->
         <div class="overflow-hidden">
             <div class="container content-space-b-2">
