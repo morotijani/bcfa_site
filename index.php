@@ -199,7 +199,20 @@
                         <img class="avatar avatar-lg avatar-4x3 mx-auto mb-4" src="./assets/media/logo/bcfa-logo.png" alt="SVG Logo">
 
                         <figure class="w-md-80 w-lg-20 mx-md-auto">
-                            <blockquote class="blockquote">Blockchain Foundation Africa engages community leaders, influencers and campus leaders in the various tertiary institutions on the continent in open dialogs regarding the benefits of Bitcoin and the blockchain technology through meet-ups and seminars to assist in providing information for pro-Bitcoin education, and actively advocates for the good impact Blockchain technology is having towards humanity in Africa.</blockquote>
+                            <blockquote class="blockquote">The continental mission of Blockchain Foundation Africa is to promote and champion blockchain technology adoption and development across the African continent. This involves educating, creating awareness and engaging African businesses, governments and individuals in the use of blockchain technology to drive innovation, social impact and economic growth.</blockquote>
+
+                            <div class="my-4">
+                                <h4>The foundation’s mission includes:</h4>
+                                <ul class="list-checked list-checked-primary">
+                                    <li class="list-checked-item">Developing and implementing blockchain education programs through collaboration with universities, training centres, and other key stakeholders.</li>
+                                    <li class="list-checked-item">Creating and stimulating blockchain innovation through partnerships with startups, incubators, and accelerators across the continent.</li>
+                                    <li class="list-checked-item">Promoting blockchain adoption in governments, businesses, and organizations across Africa through advocacy and awareness campaigns.</li>
+                                    <li class="list-checked-item">Creating a collaborative ecosystem of blockchain experts, entrepreneurs, developers, and enthusiasts to promote idea sharing and growth.</li>
+                                    <li class="list-checked-item">Supporting research and development of blockchain technology in Africa.</li>
+                                </ul>
+                            </div>
+
+                            <p>Overall, the foundation is committed to ensuring that Africa is at the forefront of the blockchain revolution, and that its impact is felt across all sectors of society, including healthcare, finance, education, and governance.</p>
 
                             <figcaption class="blockquote-footer">
                                 Continental Mission
@@ -207,6 +220,7 @@
                             </figcaption>
                         </figure>
                     </div>
+
 
                     <div class="position-absolute bottom-0 start-0 w-100" style="max-width: 7rem;">
                         <div class="mb-n7 ms-n7">
